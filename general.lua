@@ -1,0 +1,34 @@
+hl.config({
+    general = {
+        -- See https://wiki.hyprland.org/Configuring/Variables/ for more
+
+        gaps_in = 4,
+        gaps_out = 4,
+        border_size = 2,
+        col = {
+            active_border = { colors = { "rgba(6fff00ee)", "rgba(ff5500ee)" }, angle = 45 },
+            inactive_border = "rgba(595959aa)",
+        },
+
+        layout = "dwindle",
+
+        -- Please see https://wiki.hyprland.org/Configuring/Tearing/ before you turn this on
+        allow_tearing = false,
+    },
+
+    decoration = {
+        rounding = 12,
+
+        blur = {
+            enabled = true,
+        },
+    },
+
+    master = {
+        orientation = "right",
+    },
+})
+
+-- experimental {
+--     xx_color_management_v4 = true
+-- }

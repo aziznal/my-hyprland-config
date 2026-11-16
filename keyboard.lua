@@ -1,0 +1,18 @@
+
+-- For all categories, see https://wiki.hyprland.org/Configuring/Variables/
+hl.config({
+    input = {
+        follow_mouse = 1,
+
+        touchpad = {
+            natural_scroll = false,
+        },
+
+        sensitivity = 0, -- -1.0 - 1.0, 0 means no modification.
+
+        repeat_delay = 250,
+        repeat_rate = 40,
+        kb_layout = "us,tr,ara",
+        kb_options = "grp:win_space_toggle",
+    },
+})

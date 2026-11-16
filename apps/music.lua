@@ -1,0 +1,4 @@
+-- Autostart chrome music profile in workspace 9
+-- hl.on("hyprland.start", function()
+--     hl.exec_cmd("google-chrome-stable --profile-directory='Profile 1'", { workspace = "9 silent" })
+-- end)
